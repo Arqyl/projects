@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Comforta';
+    src: url(Comfortaa-Light.ttf);}
+* {
+    box-sizing: border-box;
+    font-family: 'Comforta';
+    margin: 0;
+    padding: 0;}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 0 0 10px 10px;
+    background: #47a7f7;
+    color: rgb(220, 241, 245);
+    padding: 50px 0;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+input, button {
+    width: 600px;
+    border: 2px solid rgb(220, 241, 245);
+    background: rgb(220, 241, 245);
+    height: 50px;
+    border-radius: 5px;
+    color: #47a7f7;
+    margin: 0 auto;
+    display: block;
+    border: 0;
+}
+button {
+    cursor: pointer;
+    width: 90px;
+    background: #ffffff;
+    height: 40px;
+    margin-top: 40px;
+}
+input {
+    padding: 5px 40px;
+    text-align: center;
+    background: #00000000;
+    color: #ffffff;
+    font-size: 30px;
+}
+input:focus-visible input {
+    border: none;
+}
+input::placeholder {
+    color: #cccccc;
+    font-size: 30px;
+    text-align: center;
+    transition: all 0.3s;
+    /* border-bottom: 1px solid #000000; */
+}
+input:hover {
+    color: #ffffff;
+    border-bottom: 1px solid #fff;
+}
+.card {
+    width: 450px;
+    display: none;
+    flex-direction: column;
+    background: #fdfdfd;
+    margin: 0 auto;
+    color: #47a7f7;
+    margin-top: 30px;
+    gap: 20px;
+    border: 1px solid #93f2ff;
+    padding: 10px;
+}
+.card.active {
+    display: flex;
+}
+.city-name {
+    font-size: 40px;
+    text-align: center;
+}
+.temperature {
+    font-size: 60px;
+    margin-left: 40px;
+}
+.feels-like {
+    font-size: 20px;
+    margin: 0;
+}
+.main-info-wrapper {
+    margin-left: 30px;
+}
+.main-info {
+    color: #47a7f7;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.card-wrapper {
+    display: flex;
+}
+.other {
+    border-top: 1px solid #47a8f7a1;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly
+}
